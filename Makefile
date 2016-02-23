@@ -1,7 +1,7 @@
 make:
-	javac Line.java
-	java Line
+	javac LineThing.java
+	java LineThing
 	convert line.ppm line.png
 	display line.png
 clean:
-	rm *.class *.ppm *.png
+	rm LineThing.class line.ppm
